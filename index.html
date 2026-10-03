@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of M Sushmitha, Computer Science Engineering student and software developer.">
+  <title>M Sushmitha | Software Developer Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Sushmitha<span class="accent">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <button id="themeToggle" class="btn btn-sm btn-outline-light ms-lg-2" type="button"
+                    aria-label="Switch between light and dark theme">
+              <i class="bi bi-sun-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="hero-section d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <span class="badge rounded-pill hero-badge mb-3">Computer Science Engineering Student</span>
+            <h1 class="display-3 fw-bold">Hi, I'm <span class="accent">Sushmitha</span></h1>
+            <p class="lead mt-3">
+              I build practical software solutions using Java, Python, web technologies and modern backend tools.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#projects" class="btn btn-primary btn-lg"><i class="bi bi-code-slash me-2"></i>View Projects</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg"><i class="bi bi-envelope me-2"></i>Contact Me</a>
+            </div>
+            <div class="social-links mt-4" aria-label="Social links">
+              <a href="mailto:msushmitha0826@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+              <a href="https://linkedin.com/in/m-sushmitha-40411a323" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="profile-card text-center mx-auto">
+              <div class="avatar" aria-label="Profile initials">MS</div>
+              <h2 class="h3 mt-4 mb-1">M Sushmitha</h2>
+              <p class="text-secondary mb-3">Software Developer Aspirant</p>
+              <div class="mini-stats row g-2">
+                <div class="col-4"><div class="stat-box"><strong>8.0</strong><small>CGPA</small></div></div>
+                <div class="col-4"><div class="stat-box"><strong>2</strong><small>Internships</small></div></div>
+                <div class="col-4"><div class="stat-box"><strong>2</strong><small>Projects</small></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span></span><h2>About Me</h2>
+        </div>
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-8">
+            <p class="fs-5">
+              I am a Computer Science Engineering student at Stanley College of Engineering and Technology for Women,
+              Hyderabad. I have a strong foundation in Java, Python, SQL, Data Structures and Algorithms, OOP, DBMS,
+              Operating Systems and Computer Networks.
+            </p>
+            <p>
+              My internship and academic project experience includes software development, offline voice assistants,
+              scholarship management systems, speech recognition and web application development. I enjoy solving
+              problems, debugging applications and learning new technologies.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="info-card">
+              <h3 class="h5">Quick Information</h3>
+              <ul class="list-unstyled mb-0">
+                <li><i class="bi bi-geo-alt-fill"></i> Hyderabad, India</li>
+                <li><i class="bi bi-mortarboard-fill"></i> B.E. Computer Science</li>
+                <li><i class="bi bi-envelope-fill"></i> msushmitha0826@gmail.com</li>
+                <li><i class="bi bi-telephone-fill"></i> +91 9392768084</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span></span><h2>Education</h2>
+        </div>
+        <div class="table-responsive shadow-sm rounded-4">
+          <table class="table table-hover align-middle mb-0 portfolio-table">
+            <caption class="visually-hidden">Educational qualifications</caption>
+            <thead>
+              <tr><th>Qualification</th><th>Institution</th><th>Location</th><th>Score</th><th>Period</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>B.E. Computer Science & Engineering</strong></td>
+                <td>Stanley College of Engineering and Technology for Women</td>
+                <td>Hyderabad</td><td>8.0/10</td><td>Aug 2024 – Present</td>
+              </tr>
+              <tr>
+                <td><strong>Diploma in Computer Engineering</strong></td>
+                <td>KDR Govt Polytechnic College</td>
+                <td>Wanaparthy</td><td>9.02/10</td><td>Aug 2021 – May 2024</td>
+              </tr>
+              <tr>
+                <td><strong>Secondary School Certificate</strong></td>
+                <td>Kakatiya Model High School</td>
+                <td>Mahaboobnagar</td><td>10.0/10</td><td>Mar 2020 – Mar 2021</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span></span><h2>Technical Skills</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100"><i class="bi bi-code-square"></i><h3>Languages</h3><p>Java, Python, SQL, JavaScript, HTML, CSS</p></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100"><i class="bi bi-cpu"></i><h3>Core CS</h3><p>Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks</p></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100"><i class="bi bi-window-stack"></i><h3>Development</h3><p>Flask, FastAPI, React.js, REST APIs</p></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100"><i class="bi bi-database"></i><h3>Databases</h3><p>MySQL, SQLite</p></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100"><i class="bi bi-robot"></i><h3>AI / ML</h3><p>NLP, Speech Recognition, Vosk, Ollama</p></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100"><i class="bi bi-tools"></i><h3>Strengths</h3><p>Problem solving, debugging, application testing and continuous learning</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span></span><h2>Projects</h2>
+        </div>
+
+        <!-- Interactive project filter -->
+        <div class="d-flex flex-wrap gap-2 mb-4" role="group" aria-label="Filter projects">
+          <button class="btn btn-primary filter-btn active" data-filter="all">All</button>
+          <button class="btn btn-outline-primary filter-btn" data-filter="web">Web</button>
+          <button class="btn btn-outline-primary filter-btn" data-filter="ai">AI / Voice</button>
+        </div>
+
+        <div class="row g-4" id="projectGrid">
+          <div class="col-md-6 project-item" data-category="web">
+            <article class="project-card h-100">
+              <div class="project-icon"><i class="bi bi-mortarboard-fill"></i></div>
+              <div class="project-body">
+                <span class="project-tag">Web Application</span>
+                <h3>ScholarAI – Scholarship Management System</h3>
+                <p>
+                  A web-based system for student registration, scholarship discovery, eligibility checking and
+                  application management.
+                </p>
+                <div class="tech-list"><span>React.js</span><span>FastAPI</span><span>Python</span><span>SQLite</span></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 project-item" data-category="ai">
+            <article class="project-card h-100">
+              <div class="project-icon"><i class="bi bi-mic-fill"></i></div>
+              <div class="project-body">
+                <span class="project-tag">AI / Voice</span>
+                <h3>Offline Voice Chat Assistant</h3>
+                <p>
+                  A local voice-based assistant capable of speech recognition and AI-generated responses without
+                  relying on external APIs.
+                </p>
+                <div class="tech-list"><span>Python</span><span>Flask</span><span>Vosk</span><span>Ollama</span><span>JavaScript</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span></span><h2>Internship Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="text-primary fw-semibold">Apr 2026 – Jun 2026</span>
+              <h3>Software Engineering Intern — Superchat, Inc.</h3>
+              <ul>
+                <li>Developed an offline Voice Chat Assistant using Python, Flask, Vosk and Ollama.</li>
+                <li>Integrated speech recognition, response generation and text-to-speech components.</li>
+                <li>Developed frontend components using HTML, CSS and JavaScript.</li>
+                <li>Performed debugging, error handling, testing and frontend-backend integration.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="text-primary fw-semibold">Mar 2026</span>
+              <h3>AI Image Annotation Intern — Student Tribe</h3>
+              <ul>
+                <li>Annotated and categorized image datasets for computer vision and machine learning applications.</li>
+                <li>Performed bounding box, semantic and keypoint annotations according to dataset requirements.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span></span><h2>Certifications</h2>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3"><div class="cert-card"><i class="bi bi-award"></i><strong>Java Programming</strong><span>Scaler</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="cert-card"><i class="bi bi-award"></i><strong>Python for Beginners</strong><span>Udemy</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="cert-card"><i class="bi bi-award"></i><strong>Introduction to Machine Learning</strong><span>Cognitive Class</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="cert-card"><i class="bi bi-award"></i><strong>Automata Theory</strong><span>Mind Luster</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span></span><h2>Contact Me</h2>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <h3>Let's connect</h3>
+            <p class="text-secondary">Have an opportunity, project idea or question? Send a message using the form.</p>
+            <div class="contact-info">
+              <a href="mailto:msushmitha0826@gmail.com"><i class="bi bi-envelope-fill"></i> msushmitha0826@gmail.com</a>
+              <a href="tel:+919392768084"><i class="bi bi-telephone-fill"></i> +91 9392768084</a>
+              <span><i class="bi bi-geo-alt-fill"></i> Hyderabad, India</span>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div id="formMessage" class="alert d-none" role="alert" aria-live="polite"></div>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Name *</label>
+                  <input type="text" class="form-control" id="name" name="name" required minlength="2" autocomplete="name">
+                  <div class="invalid-feedback">Please enter your name (at least 2 characters).</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email *</label>
+                  <input type="email" class="form-control" id="email" name="email" required autocomplete="email">
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subject *</label>
+                  <input type="text" class="form-control" id="subject" name="subject" required minlength="3">
+                  <div class="invalid-feedback">Please enter a subject.</div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message *</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" required minlength="10"></textarea>
+                  <div class="invalid-feedback">Message should contain at least 10 characters.</div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary btn-lg" type="submit"><i class="bi bi-send me-2"></i>Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer py-4">
+    <div class="container text-center">
+      <p class="mb-1">&copy; <span id="year"></span> M Sushmitha. All rights reserved.</p>
+      <small>Built with HTML5, CSS3, Bootstrap 5 and JavaScript ES6+.</small>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-top" type="button" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
